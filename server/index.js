@@ -13,7 +13,9 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use("/api/users/clinicX/administrators", routes.administratorRoutes);
+app.use("/api/administrators", routes.administratorRoutes);
+
+app.use("/api/users", routes.usersRoutes);
 
 var server = app.listen(PORT, (err) => {
   if (!err) {

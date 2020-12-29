@@ -1,3 +1,4 @@
 module.exports = {
-  administratorService: require("./administratorService"),
+  administratorServices: require("./administratorServices"),
+  userServices: require("./userServices"),
 };

@@ -4,7 +4,7 @@ const services = require("../../services");
 
 router.get("/", async (req, res) => {
   try {
-    var Administrators = await services.administratorService.findAllAdministrators();
+    var Administrators = await services.administratorServices.findAllAdministrators();
     res.send(Administrators);
   } catch (error) {
     res.send(error);
@@ -13,7 +13,7 @@ router.get("/", async (req, res) => {
 
 router.post("/createAdministrator", async (req, res) => {
   try {
-    var newAdministrator = await services.administratorService.createAdministrator(
+    var newAdministrator = await services.administratorServices.createAdministrator(
       req.body
     );
     res.send(newAdministrator);
