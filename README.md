@@ -14,4 +14,4 @@
 
 ### - To create an administrator send a `POST` request to `/api/administrators/createAdministrator`
 
-### - To create a user send a `POST` request to `/api/administrators/createUser`
+### - To create a user send a `POST` request to `/api/users/createUser`
