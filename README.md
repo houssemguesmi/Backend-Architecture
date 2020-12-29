@@ -1,10 +1,12 @@
 # Back-End Architecture
 
-## -Run `npm install` to install the dependencies
+### -Run `npm install` to install the dependencies
 
-## -Create `.env` file and set your database URI `URI="database_uri"`
+### -Create `.env` file and set your database URI `URI="database_uri"`
 
-## -Run `npm start` to start your server
+### -Run `npm start` to start your server
+
+## How to interact with the backend?
 
 ### To get all administrators send a `GET` request to `/api/administrators/`
 
