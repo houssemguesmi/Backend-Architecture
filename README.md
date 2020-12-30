@@ -16,4 +16,4 @@
 
 ### - To create a user send a `POST` request to `/api/users/createUser`
 
-##© 2020 Houssem Guesmi All Rights Reserved
+##© 2020 ['Houssem Guesmi'](https://github.com/houssemguesmi) All Rights Reserved
